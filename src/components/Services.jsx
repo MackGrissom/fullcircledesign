@@ -4,10 +4,10 @@ import Development from '../assets/development.png'
 import SEO from '../assets/seo.png'
 
 
-const Analytics = () => {
+const Services = () => {
     return (
         <div className='w-full bg-white py-16 px-4'>
-
+<h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-6 text-[black] flex justify-center pb-6'> Our Services </h1>
 <div className='max-w-[800px] mt-[-96px] w-full pt-5 mx-auto text-center flex flex-col justify-center'>
 <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-6 font font-bold text-black '>  </h1>
 </div>
@@ -39,10 +39,11 @@ const Analytics = () => {
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet, vel amet nihil placeat minima quisquam nam nemo hic. Accusamus voluptatum mollitia eligendi molestias optio debitis nulla neque eveniet alias. </p>
 
                     <button className='text-black  bg-[#ffde59] w-[200px] rounded-md font-medium my-6 py-3 mx-auto md:mx-0'> Get Started </button>
+                    
                 </div>
             </div>
         </div>
     )
 }
 
-export default Analytics
+export default Services
