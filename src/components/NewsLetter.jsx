@@ -1,8 +1,9 @@
 import React from 'react'
-
+import BG from '../assets/bg8.mp4'
 const Technology = () => {
   return (
     <div className='w-full py-16 text-white'>
+      {/* <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full"/> */}
       <div className='max-w[1240px] mx-auto grid lg:grid-cols-3'>
         <div className='lg:col-span-2 my-4'>
           <h1 className='font-4xl text-[#ffde59] font-bold md:text-3xl sm:text-2xl text-xl p-5'> Want to stay up to date about the latest and greatest web design trends? </h1>

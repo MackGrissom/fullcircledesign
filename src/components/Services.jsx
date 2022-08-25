@@ -2,14 +2,15 @@ import React from 'react'
 import Design from '../assets/design.png'
 import Development from '../assets/development.png'
 import SEO from '../assets/seo.png'
+import BG from '../assets/bg7.mp4'
 
 
 const Services = () => {
     return (
-        <div className='w-full bg-white py-8 bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
-
-            <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-4 text-[#ffde59] flex justify-center pb-4 pt-4 bg-[white] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-6'> What We do.. </h1>
+        <div className='w-full bg-white py-6 bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
+<video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full"/>
             <div className='max-w-[800px] mt-[-96px] w-full pt-5 mx-auto text-center flex flex-col justify-center '>
+            <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-2 text-[#ffde59] flex justify-center bg-[white] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mt-[56px]'> What We do.. </h1>
                 <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-6 font font-bold text-white '>  </h1>
             </div>
 
