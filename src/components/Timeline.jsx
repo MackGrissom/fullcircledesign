@@ -1,13 +1,13 @@
 import React from 'react'
-import BG from '../assets/bg4.mp4'
+import BG from '../assets/bg.mp4'
 const Timeline = () => {
     return (
 
-        <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-10 ml-1 max-w-full">
+        <ol class="relative border-l border-gray-200 dark:border-gray-700  max-w-full">
             <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full"/>
             {/* <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-6 text-[#ffde59]'> Our process </h1> */}
 
-            <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-4 text-[#ffde59] flex justify-center pb-4 pt-4 bg-[white] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-6'> Our Process </h1>
+            <h1 className='md:text-6xl sm:text-5xl text-4xl font bold md:py-4 text-[#ffde59] flex justify-center pb-4 pt-4 bg-[white] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-6 mt-4'> Our Process </h1>
 
             <p className='ml-5 text-[white]'>  A step-by-step timeline of turning your idea into reality</p>
            

@@ -5,7 +5,7 @@ import BG from '../assets/bg3.mp4'
 const Hero = () => {
     return (
         <div className='text-black pt-h-14 main'>
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full"/>
+            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content"/>
             <div className='max-w-[900px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center content'>
                 {/* <p className='text-[#000000] font-bold p-2'>Design, Develop, Deliver. </p> */}
               
@@ -13,7 +13,7 @@ const Hero = () => {
                 <br />
                 <div>
                     <p className='md:text-2xl sm:text-1xl text-l font-bold bg-[black] backdrop-blur-lg rounded-md drop-shadow-lg p-3 text-[#ffde59] bg-opacity-20'> We design, build & optimize better websites for &nbsp;
-                        <Typed strings={['Disruptors.', 'Dreamers.', 'Doers.', 'Innovators.', 'Inventors.', 'Startups.', 'Small Businesses.', "Enterprises.", "Entrepreneurs.", "You."]} typeSpeed={100} backSpeed={50} loop className='text-l text-[white] font-bold md:text-2xl sm:text-1xl hover:bg-black hover:animate-bounce hover:text-[#ffde59]' /></p>
+                        <Typed strings={['Disruptors.', 'Dreamers.', 'Doers.', 'Innovators.', 'Inventors.', 'Startups.', 'Small Businesses.', "Enterprises.", "Entrepreneurs.", "You."]} typeSpeed={100} backSpeed={50} loop className='text-l text-[black] font-bold md:text-2xl sm:text-1xl hover:bg-white hover:animate-bounce hover:text-[#ffde59]' /></p>
 
 
                 </div>
