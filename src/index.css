@@ -15,3 +15,7 @@ video {
     
     z-index: -1;
 }
+
+.nav-hidden {
+    z-index: 1;
+}

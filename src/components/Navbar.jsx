@@ -10,8 +10,8 @@ const Navbar = () => {
     };
     
     return (
-        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-            <img src={Logo}  className='logo w-20 h-20' />
+        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
+            <img src={Logo}  className='logo w-32 h-32 z-0' />
             <ul className='hidden md:flex'>
                 <li className='p-4 hover:text-[#ffde59]'> Home </li>
                 <li className='p-4 hover:text-[#ffde59]'> Services</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
         </div>
 
-        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] z-1'}>
+        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] navhidden'}>
         <img src={Logo}  className='logo w-20 h-20' />
         {/* <h1 className='w-full text-3xl font-bold text-[#ffde59] m-4'>Full Circle Design.</h1> */}
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Home</li>
