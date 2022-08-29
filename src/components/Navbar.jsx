@@ -1,16 +1,33 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Logo from '../assets/logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [show, setShow] = useState(true);
     
+    const controlNavbar = ()=> {
+        if (window.scrollY>100) {
+            setShow(false)
+        } else {
+            setShow(true)
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', controlNavbar)
+        return() => {
+            window.removeEventListener('scroll', controlNavbar)
+        }
+    })
+
+
     const handleNav = () => {
         setNav(!nav);
     };
     
     return (
-        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
+        <div onScroll={ controlNavbar}  className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
             <img src={Logo}  className='logo w-32 h-32 z-0' />
             <ul className='hidden md:flex'>
                 <li className='p-4 hover:text-[#ffde59]'> Home </li>

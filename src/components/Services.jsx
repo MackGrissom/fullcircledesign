@@ -7,10 +7,10 @@ import BG from '../assets/bg18.mp4'
 
 const Services = () => {
     return (
-        <div className='w-full bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
+        <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
             <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full" />
-            <div className='max-w-full  w-full mx-auto text-center flex flex-col justify-center '>
-                <h1 className='md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center bg-[white] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg  max-h-full max-w-full object-cover mt-4 h-[200px] bg-gradient-to-r items-center'> Our Services<div className='flex justify-between'> <p className='ml-5 text-[#ffde59] text-[30px] pt-4 italic'> What We Do & Why We're The Best Solution For your Business</p> </div>  </h1>
+            <div className='mx-auto text-center flex flex-col justify-center pt-[5%] items-center max-w-[1240px]'>
+                <h1 className='md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[100px] mb-8 bg-gradient-to-r items-center '> Our Services<div className='flex justify-between'> <p className='ml-5 text-[#ffde59] text-[30px] pt-4 italic'> What We Do & Why We're The Best Solution For your Business</p> </div>  </h1>
                 
                
             </div>
