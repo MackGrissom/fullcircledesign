@@ -19,3 +19,7 @@ video {
 .nav-hidden {
     z-index: 1;
 }
+
+.vertical-timeline {
+    padding: 0rem !important;
+}

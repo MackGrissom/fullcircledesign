@@ -1,5 +1,5 @@
 import React from 'react'
-import BG from '../assets/bg21.mp4'
+import BG from '../assets/bg.mp4'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const Timeline = () => {
@@ -10,13 +10,14 @@ const Timeline = () => {
         <VerticalTimeline>
 
             {/* Heading */}
-            <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
-            <h1 className='md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center bg-[]  max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center -mt-[-44px] backdrop-blur-lg rounded drop-shadow-lg'> Our Process <div className='flex justify-between'>  </div>
+            <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px]'>
+            <h1 className='md:text-5xl sm:text-4xl text-4xl font bold text-[white] flex justify-center align-center bg-[]  max-h-full max-w-[50%] object-cover mb-0 bg-gradient-to-r items-center backdrop-blur-lg rounded drop-shadow-lg'> 
+            Our Process <div className='flex justify-between'>  </div>
             </h1>
-            <p className='ml-5 text-[#ffde59] text-[30px] pt-4 italic bg-gradient-to-r items-center  backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
+            <p className='ml-5 text-[#ffde59] text-[30px] pt-0 italic bg-gradient-to-r items-center  backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
             </div>
-{/* 
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full" /> */}
+
+            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-20" />
 
             {/* 1st Step */}
             <VerticalTimelineElement
@@ -113,11 +114,11 @@ const Timeline = () => {
                 iconStyle={{ background: 'black', color: '#fff' }}
 
             >
-                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Site-Map and Low-Fidelity Wireframe In Figma</h4>
-                <h3 className="vertical-timeline-element-title font-bold text-gray-400">The first draft of your website design  </h3>
+                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Full-Stack Development of Website</h4>
+                <h3 className="vertical-timeline-element-title font-bold text-gray-400">Now Comes The Magic  </h3>
 
                 <p className='text-[#ffde59] italic'>
-                This will be your chance to visualize your website functionality, this is less about visual design and more about functionality & usability. You'll have a chance to share feedback and we can make adjustments accordingly!
+                Our Team Of Worldclass Developers Will Now Begin To Turn That Figma Design, Which Was Previously Just An Idea, Into A One of A Kind Full-Stack Website That Works On All Devices.
                 </p>
             </VerticalTimelineElement>
 
@@ -130,11 +131,11 @@ const Timeline = () => {
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
-                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Needs Assessment</h4>
-                <h3 className="vertical-timeline-element-title font-bold text-gray-400">Submit A Brief Description Of Website Needs </h3>
+                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Launch </h4>
+                <h3 className="vertical-timeline-element-title font-bold text-gray-400">The Best Part, Deployment </h3>
 
                 <p className='text-[#ffde59] italic'>
-                    Using our description template, you are able to easily explain your vision and your business needs. If you're unsure & need guidance on this step, we're here for you and can offer support in terms of what is necessary and impactful for your website. This will be followed up with conversation surrounding brainstorming, project scope and budget requirements. 
+                    Your Final Approval, After Our Developers Have Finished The Front and Back End Development Of The Website - It's Time To Deploy Your New Tech Solution. Here's Where We Connect Your Site With Your Selected Domain Name and Host It Online. Your Idea Is No Longer Just An Idea. 
                 </p>
             </VerticalTimelineElement>
 
