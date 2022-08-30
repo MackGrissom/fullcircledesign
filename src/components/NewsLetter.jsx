@@ -2,7 +2,7 @@ import React from 'react'
 import BG from '../assets/bg8.mp4'
 const Technology = () => {
   return (
-    <div className='w-full py-16 text-white'>
+    <div className='w-full py-16 text-white  bg-[#ffde59] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
       {/* <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full"/> */}
       <div className='max-w[1240px] mx-auto grid lg:grid-cols-3'>
         <div className='lg:col-span-2 my-4'>

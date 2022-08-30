@@ -33,7 +33,7 @@ const Navbar = () => {
                 <li className='p-4 hover:text-[#ffde59]'> Home </li>
                 <li className='p-4 hover:text-[#ffde59]'> Services</li>
                 <li className='p-4 hover:text-[#ffde59]'> Our Process</li>
-                <li className='p-4 hover:text-[#ffde59]'> Technologies </li>
+                
                 <li className='p-4 hover:text-[#ffde59]'> About </li>
                 <li className='p-4 hover:text-[#ffde59]'> Contact </li>
             </ul>
@@ -48,7 +48,7 @@ const Navbar = () => {
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Home</li>
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Services</li>
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Our Process</li>
-        <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Technologies</li>
+       
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>About</li>
         <li className='p-4'>Contact</li>
         </ul>

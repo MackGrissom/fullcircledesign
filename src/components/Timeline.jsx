@@ -1,5 +1,5 @@
 import React from 'react'
-import BG from '../assets/bg18.mp4'
+import BG from '../assets/bg21.mp4'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const Timeline = () => {
@@ -11,12 +11,12 @@ const Timeline = () => {
 
             {/* Heading */}
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
-            <h1 className='md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center bg-[]  max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center -mt-[-44px] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Our Process <div className='flex justify-between'>  </div>
+            <h1 className='md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center bg-[]  max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center -mt-[-44px] backdrop-blur-lg rounded drop-shadow-lg'> Our Process <div className='flex justify-between'>  </div>
             </h1>
-            <p className='ml-5 text-[#ffde59] text-[30px] pt-4 italic bg-gradient-to-r items-center bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
+            <p className='ml-5 text-[#ffde59] text-[30px] pt-4 italic bg-gradient-to-r items-center  backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
             </div>
-
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full" />
+{/* 
+            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full" /> */}
 
             {/* 1st Step */}
             <VerticalTimelineElement
@@ -96,8 +96,8 @@ const Timeline = () => {
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
-                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Needs Assessment</h4>
-                <h3 className="vertical-timeline-element-title font-bold text-gray-400">Submit A Brief Description Of Website Needs </h3>
+                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Final Review Of Figma Design</h4>
+                <h3 className="vertical-timeline-element-title font-bold text-gray-400">Finalizing Every Detail </h3>
 
                 <p className='text-[#ffde59] italic'>
                     Using our description template, you are able to easily explain your vision and your business needs. If you're unsure & need guidance on this step, we're here for you and can offer support in terms of what is necessary and impactful for your website. This will be followed up with conversation surrounding brainstorming, project scope and budget requirements. 
@@ -141,20 +141,20 @@ const Timeline = () => {
 
             {/* 8th FINISHED! */}
             <VerticalTimelineElement
-                className="horizontal-timeline-element--work text-lg"
-                contentStyle={{ background: 'rgba(0, 0, 0, 0.45)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 245)' }}
-                date="Full Circle Design Team"
+                className="vertical-timeline-element--work text-lg"
+                contentStyle={{ background: 'rgba(255, 255, 255, 0.17)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date=""
                 iconStyle={{ background: 'green', color: '#fff' }}
 
-            />
-             <h4 className="text-[white] font-extrabold mb-1 bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] text-6xl">
-                Done!
-             </h4>
+            >
+                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Congratulations, You're Now The Proud Owner Of A Worldclass Website.</h4>
+                <h3 className="vertical-timeline-element-title font-bold text-gray-400">So..what now? </h3>
 
-                <p className='italic text-[white] font-extrabold mb-1 bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] text-sm'>
-                You're now the proud owner of a modern, responsive website. We offer a free 30-day website maintenance. Depending on the specifics of your contract, you may have a content management system to keep your site updated as things change. Otherwise we do offer paid website maintenance as a seperate package. 
+                <p className='text-[white] italic'>
+                    This answer varies greatly depending on the goal of your website, however we're more than happy to help provide you with the next best steps, if you need them. If you're a startup, it's time to get users & test. If you're an enterprise it's time to launch either internally/externally and drive business outcomes. Whatever your mission, we're here as your support system to either provide with you answers or connect you with our network of movers & shakers who can help. Fees for future website maintenance varies based on project scope. 
                 </p>
+            </VerticalTimelineElement>
         </VerticalTimeline>
     )
 }
