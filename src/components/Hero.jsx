@@ -5,7 +5,7 @@ import BG from '../assets/bg3.mp4'
 const Hero = () => {
     return (
         <div className='text-black pt-h-14 main'>
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70"/>
+            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen"/>
             <div className='max-w-[900px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center content'>
                 {/* <p className='text-[#000000] font-bold p-2'>Design, Develop, Deliver. </p> */}
               
