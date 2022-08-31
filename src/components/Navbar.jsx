@@ -38,11 +38,11 @@ const Navbar = () => {
                 <li className='p-4 hover:text-[#ffde59]'> Contact </li>
             </ul>
             
-            <div onClick={handleNav} className='block md:hidden'>
-        {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
+            <div onClick={handleNav} className='block md:hidden -ml-[40px] -mt-[37px] '>
+        {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px]'/> : <AiOutlineMenu size={20} className='-ml-[40px]'/>}
         </div>
 
-        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] navhidden'}>
+        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] navhidden dropdown-nav'}>
         <img src={Logo}  className='logo w-20 h-20' />
         {/* <h1 className='w-full text-3xl font-bold text-[#ffde59] m-4'>Full Circle Design.</h1> */}
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Home</li>

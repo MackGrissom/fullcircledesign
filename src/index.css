@@ -23,3 +23,7 @@ video {
 .vertical-timeline {
     padding: 0rem !important;
 }
+
+.dropdown-nav {
+    z-index: 1 !important;
+}
