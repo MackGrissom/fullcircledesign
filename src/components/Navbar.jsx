@@ -46,11 +46,19 @@ const Navbar = () => {
         <img src={Logo}  className='logo w-20 h-20' />
         {/* <h1 className='w-full text-3xl font-bold text-[#ffde59] m-4'>Full Circle Design.</h1> */}
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Home</li>
+
+
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Services</li>
+
+
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>Our Process</li>
        
         <li className='p-4 border-b border-gray-600 hover:text-[#ffde59]'>About</li>
+
+
         <li className='p-4'>Contact</li>
+
+        
         </ul>
         </div>
         );

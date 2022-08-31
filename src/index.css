@@ -27,3 +27,15 @@ video {
 .dropdown-nav {
     z-index: 1 !important;
 }
+
+.form {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+

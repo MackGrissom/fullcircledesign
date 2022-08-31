@@ -1,5 +1,5 @@
 import React from 'react'
-import BG from '../assets/bg.mp4'
+import BG from '../assets/bg22.mp4'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const Timeline = () => {
@@ -10,11 +10,11 @@ const Timeline = () => {
         <VerticalTimeline>
 
             {/* Heading */}
-            <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px]'>
+            <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] mt-8'>
             <h1 className='md:text-5xl sm:text-4xl text-4xl font bold text-[white] flex justify-center align-center bg-[]  max-h-full max-w-[50%] object-cover mb-0 bg-gradient-to-r items-center backdrop-blur-lg rounded drop-shadow-lg'> 
             Our Process <div className='flex justify-between'>  </div>
             </h1>
-            <p className='ml-5 text-[#ffde59] text-[30px] pt-0 italic bg-gradient-to-r items-center  backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
+            <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center backdrop-blur-lg rounded drop-shadow-lg max-w-[50%]'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
             </div>
 
             <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-20" />

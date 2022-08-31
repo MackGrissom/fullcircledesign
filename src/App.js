@@ -1,4 +1,5 @@
 import React from 'react';
+import Router from './components/Router';
 import Services from './components/Services';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -12,13 +13,14 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
+    <Router /> 
     < Navbar />
     < Hero />
     < Services /> 
     < Timeline />
     < About />
     < Contact />
-    < NewsLetter /> 
+    {/* < NewsLetter />  */}
 
     <Footer />
     </div>
