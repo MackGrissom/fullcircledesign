@@ -28,7 +28,7 @@ export const Contact = () => {
   return (
     <section className='section  ' id='contact'>
       <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
-            <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full opacity-40" />
+            {/* <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full opacity-40" /> */}
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
                 <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[#ffde59] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center'> Contact Us<div className='flex justify-between'>  </div>  </h1>
                 <p className='ml-5 text-[white] lg:text-[20px]  italic text-center lg:flex md:flex lg:justify-center md:justify-center text-sm w-[50%]'> If you're interesting in working with us, or have questions surrounding pricing or timelines, please reach out. <br/>

@@ -37,5 +37,9 @@ video {
     align-content: center;
 }
 
-
+.bgvid {
+    object-fit: contain;
+    height: 100%;
+    z-index: -1;
+}
 

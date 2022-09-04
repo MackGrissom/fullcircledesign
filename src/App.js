@@ -7,23 +7,33 @@ import NewsLetter from './components/NewsLetter';
 import Timeline from './components/Timeline';
 import Footer from './components/Footer';
 import About from './components/About';
-
 import Contact from './components/Contact';
+import {Routes, Route} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div>
-    <Router /> 
+    <>
+
     < Navbar />
-    < Hero />
+
+    <Routes>
+<Route path='/' element={< Hero /> }/>
+<Route path='/services' element={< Services /> }/>
+<Route path='/process' element={< Timeline /> }/>
+<Route path='/about'about element={< About /> }/>
+<Route path='/contact' element={< Contact /> }/>
+    {/* < Hero />
     < Services /> 
     < Timeline />
     < About />
-    < Contact />
+    < Contact /> */}
     {/* < NewsLetter />  */}
+    </Routes>
 
     <Footer />
-    </div>
+
+    </>
   );
 }
 
