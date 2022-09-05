@@ -32,7 +32,7 @@ const Navbar = () => {
     return (
 
         <div onScroll={ controlNavbar}  className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white  z-2'>
-            <img src={Logo}  className='logo w-32 h-32  ' />
+            <a href='/'><img src={Logo}  className='logo w-32 h-32  hover:animate-pulse' /> </a>
             <ul className='hidden md:flex font-mono'>
 
                 <li className='p-4 hover:text-[#ffde59]'> <a href='/'>Home</a>

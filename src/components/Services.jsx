@@ -10,7 +10,7 @@ const Services = () => {
         <div className=''>
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] '> 
             
-                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Services<div className='flex justify-between '>  </div>  </h1>
+                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg '> Services<div className='flex justify-between '>  </div>  </h1>
             <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen bgvid -z-[0]" />
                 <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mt-5'> What We Do & Why We're The Best Solution For your Business</p>
                 
@@ -29,7 +29,7 @@ const Services = () => {
                     <p className='ml-8 text-white font-mono'> Whether you're seeking a web-re-design, a make-over of your existing website, a mobile-friendly  version of your site, or a brand new site designed and developed from scratch; you can be confident that you are in good hands with our web design specialists. </p>
                     <p className='ml-8 text-[#ffde59] font-mono'>UX research, UI design, Wireframing & Prototyping  </p>
 
-                    <button className='text-black  bg-[#ffde59]  w-[200px] rounded-md font-medium my-6 py-3 mx-auto md:mx-0 hover:bg-white font-mono'> Get Started </button>
+                    <button className='text-black  bg-[#ffde59] w-[200px] rounded-md font-medium my-6 py-3 mx-auto md:mx-0 hover:bg-white font-mono'> Get Started </button>
                 </div>
 
 
