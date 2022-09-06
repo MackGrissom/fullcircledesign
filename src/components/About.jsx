@@ -1,17 +1,28 @@
 import React from 'react'
-import BG from '../assets/bg18.mp4'
+import BG from '../assets/bg11.mp4'
 import Aboutpic from '../assets/about.png'
 
 const About = () => {
   return (
+
+    
+    <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] '> 
     <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'>
+
+
+      <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full sm:w-full sm:h-cover  md:-w-full md:h-cover opacity-70 bgvid -z-[0]" />
       <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
-        <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center -mt-[-44px] hover:text-[#ffde59]'> About Us<div className='flex justify-between'>  </div>  </h1>
+
+
+
+      
+        <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center -mt-[-44px] hover:text-[#ffde59]'> About Us<div className='flex justify-between'>
+          
+            </div>  </h1>
         <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center'> A Quick Description Of Who We Are And What We Stand For </p>
 
 
       </div>
-      <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full opacity-40" />
 
 
       {/* Web Design */}
@@ -30,7 +41,7 @@ const About = () => {
 
 
         </div>
-
+</div>
 
 
         {/* Wen Development */}
