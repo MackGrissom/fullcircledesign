@@ -3,6 +3,7 @@ import Design from '../assets/design.png'
 import Development from '../assets/development.png'
 import SEO from '../assets/seo.png'
 import BG from '../assets/bg20.mp4'
+
 // import BG2 from '../assets/bg21.mp4'
 const Services = () => {
     return (

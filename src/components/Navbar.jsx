@@ -52,7 +52,10 @@ const Navbar = () => {
                 </li>
 
                 <li className='p-4 hover:text-[#ffde59]'> <a href='contact'>Contact</a> 
-
+                </li>
+                
+                
+                <li className='p-4 hover:text-[#ffde59]'> <a href='projects'>Projects</a> 
                 </li>
 
             </ul>
