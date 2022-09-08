@@ -6,41 +6,10 @@ const Footer = () => {
 
        
 <footer class="p-4 bg-black">
-    <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <a href='#' class="flex items-center">
-                <img src={Tlogo} className="mr-3  w-[100px]" alt="Full Circle Logo" />
-                
-            </a>
-        </div>
-        <div class="grid grid-cols-2 gap-8 sm:gap-8 sm:grid-cols-2">
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                <ul class="text-gray-600 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="/about" class="hover:underline">About Us</a>
-                    </li>
-                    <li>
-                        <a href="/contact" class="hover:underline">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                <ul class="text-gray-600 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    
+    <hr class="my-0 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between">
+   
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" class="hover:underline">Full Circle Web Design™</a>. All Rights Reserved.
         </span>
 
