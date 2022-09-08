@@ -12,18 +12,17 @@ const Services = () => {
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] '> 
             {/* <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-70 h-screen bgvid -z-[0]" /> */}
             
-                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Services<div className='flex justify-between '>  </div>  </h1>
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen bgvid -z-[0]" />
+                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg '> Services<div className='flex justify-between'>  </div>  </h1>
+            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen bgvid2" />
                 <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mt-5'> What We Do & Why We're The Best Solution For your Business</p>
                 
-               
             </div>
 
             
             {/* Web Design */}
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 shadow-lg mt-3  bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-4'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 shadow-lg mt-3  bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-4 hover:transition duration-500 focus:ring-2-[#ffde59] hover:'>
 
-                <img src={Design} alt='laptop' className='w-[500px] mx-auto my-4 ' />
+                <img src={Design} alt='laptop' className='w-[500px] mx-auto my-4' />
 
                 <div className='flex flex-col justify-center'>
             

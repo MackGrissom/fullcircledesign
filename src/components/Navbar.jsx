@@ -64,7 +64,7 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px]'/> : <AiOutlineMenu size={20} className='-ml-[40px]'/>}
         </div>
 
-        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] navhidden dropdown-nav font-mono'}>
+        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 hidnav' : 'ease-in-out duration-500 fixed left-[-100%] navhidden dropdown-nav font-mono hidnav'}>
         <img src={Logo}  className='logo w-20 h-20' />
         {/* <h1 className='w-full text-3xl font-bold text-[#ffde59] m-4'>Full Circle Design.</h1> */}
         <li className='p-4 hover:text-[#ffde59]'> <a href='/'>Home</a>

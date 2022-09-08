@@ -40,17 +40,9 @@ export const Contact = () => {
       <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg flex'>
                 
             {/* <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full opacity-40" /> */}
-       
-            <div
-          className='flex flex-col lg:gap-x-8 lg:flex-row'
-        >
-        
-
-
-
 
           <form ref={form}
-            className='space-y-2 w-full max-w-full  flex flex-wrap form bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] mt-2 mb-2 p-4 align-middle items-center justify-center bg-white ' onSubmit={sendEmail} 
+            className='space-y-2 w-full max-w-full  flex flex-wrap form bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] mt-2 mb-2 p-4 align-middle items-center justify-center bg-white' onSubmit={sendEmail} 
           >
             <img src={Contactpic} alt='laptop' className='w-[200px] mx-auto my-4 ' />
                 <p className='ml-5 text-[white] lg:-text-[10px] font-mono w-[50%]'> We're looking forward to connecting with you and helping take your idea from a day-dream, written down on a napkin, to a tangible MVP that you can pitch to investors.</p>
@@ -103,8 +95,10 @@ export const Contact = () => {
             <button className='text-black  bg-[#ffde59] w-[300px] rounded-md font-medium my-6 mx-auto py-3  backdrop-blur-xl drop-shadow-xl hover:bg-[white] flex-wrap' type="submit" value="Send">
               Send message
             </button>
+            
           </form>
-        </div>
+            
+        
         </div>
         
       

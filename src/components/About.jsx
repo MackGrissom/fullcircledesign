@@ -9,7 +9,7 @@ const About = () => {
       <div className= 'mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
 
 
-        <div className='mx-auto text-center flex flex-col justify-center  items-center max-w-[1240px]'>
+        <div className='mx-auto text-center flex flex-col justify-center  items-center max-w-[1240px] '>
           <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[100px] mb-0 bg-gradient-to-r items-center hover:text-[#ffde59]'> About Us<div className='flex justify-between'>
           </div>  </h1>
 
@@ -19,7 +19,7 @@ const About = () => {
 
         </div>
 
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 shadow-lg mt-3  bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg p-4 font-mono'>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 shadow-lg mt-3  bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg p-4 font-mono -z-[1]'>
 
           <img src={Aboutpic} alt='laptop' className='w-[500px] mx-auto my-4 ' />
 

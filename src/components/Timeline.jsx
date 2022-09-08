@@ -1,8 +1,8 @@
 import React from 'react'
-import BG from '../assets/bg21.mp4'
+import BG from '../assets/bg.mp4'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import BG2 from '../assets/bg21.mp4'
+import BG2 from '../assets/bg20.mp4'
 import Assessment from '../assets/assessment.png'
 import Sitemap from '../assets/sitemap.png'
 import Review1 from '../assets/review1.png'
@@ -18,13 +18,12 @@ const Timeline = () => {
 
 
 
-        <VerticalTimeline className='mt-4'>
+        <VerticalTimeline className='mt-4 -z-[1]'>
 
 
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] '>
-                <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-70  bgvid -z-[0]" />
-                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-4'> Our Process<div className='flex justify-between '>  </div>  </h1>
-                {/* <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-cover md:-w-full md:h-cover h-fit-content opacity-70 bgvid -z-[0]" /> */}
+                <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full bgvid -z-[0]" />
+                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-20'> Our Process<div className='flex justify-between '>  </div>  </h1>
                 <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> A High-Level Roadmap Of How We Turn Your Idea Into Reality</p>
 
 
@@ -32,7 +31,7 @@ const Timeline = () => {
             {/* <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-cover md:-w-full md:h-full h-cover opacity-70 h-screen cover  mt-4"/> */}
             {/* Heading */}
 
-
+            {/* <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-cover md:-w-full md:h-cover h-fit-content bgvid2 -z-[0]" /> */}
 
 
             {/* 1st Step */}
@@ -40,7 +39,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(255, 255, 255, 0.2)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="YOU"
+                date="Define Your Vision & Complete Our Needs Assessment"
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
@@ -59,12 +58,12 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(0, 0, 0, 0.45)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 245)' }}
-                date="Full Circle Design Team"
+                date="We Review Your Needs and Build First Prototype"
                 iconStyle={{ background: 'black', color: '#fff' }}
 
             >
                 <img src={Sitemap} alt='laptop' className='w-[200px] mx-auto my-4 ' />
-                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Site-Map and Low-Fidelity Wireframe In Figma</h4>
+                <h4 className="vertical-timeline-element-subtitle text-[white] font-extrabold mb-1">Site-Map & Low-Fi Wireframe</h4>
                 <h3 className="vertical-timeline-element-title font-bold text-gray-400">The first draft of your website design  </h3>
 
                 <p className='text-[#ffde59] italic'>
@@ -77,7 +76,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(255, 255, 255, 0.2)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="YOU"
+                date="Together We Review your Prototype & Get Your Approval"
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
@@ -95,7 +94,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(0, 0, 0, 0.45)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 245)' }}
-                date="Full Circle Design Team"
+                date="After Approval Of Lo-fi Prototype We Build Final Design Prototype"
                 iconStyle={{ background: 'black', color: '#fff' }}
 
             >
@@ -113,7 +112,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(255, 255, 255, 0.2)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="YOU"
+                date="Together We Review Final Prototype"
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
@@ -131,7 +130,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(0, 0, 0, 0.45)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 245)' }}
-                date="Full Circle Design Team"
+                date="We Develop & Optimize Your Website"
                 iconStyle={{ background: 'black', color: '#fff' }}
 
             >
@@ -149,7 +148,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(255, 255, 255, 0.2)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="YOU"
+                date="Ready for takeoff? It's Time To Deploy Your Website "
                 iconStyle={{ background: '#ffde59', color: '#fff' }}
 
             >
@@ -168,7 +167,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work text-lg"
                 contentStyle={{ background: 'rgba(255, 255, 255, 0.17)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date=""
+                date="Congratulations - you now have a full stack website ready to deploy. Now it's time to engage users."
                 iconStyle={{ background: 'green', color: '#fff' }}
 
             >
@@ -182,7 +181,7 @@ const Timeline = () => {
             </VerticalTimelineElement>
             <div className='x-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] bg-white bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg '> 
 
-                <h1 className='text-white'> Ready to build your website? </h1>
+                <h1 className='text-white'> Ready to turn your idea into a website? </h1>
 
                 <a href='contact'>  <button className='text-black  bg-[#ffde59] w-[200px] rounded-md font-medium my-6 py-3 mx-auto md:mx-0  hover:bg-white font-mono '> Contact Us </button> </a>
             </div>

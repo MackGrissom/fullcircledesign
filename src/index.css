@@ -37,9 +37,17 @@ video {
     align-content: center;
 }
 
+
 .bgvid {
     object-fit: contain;
     height: 100%;
     z-index: -1;
 }
-
+.bgvid2 {
+    object-fit: cover;
+    height: 100%;
+    z-index: -1;
+}
+.hidnav {
+    z-index: 1;
+}
