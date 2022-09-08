@@ -28,12 +28,12 @@ export const Contact = () => {
 
   return (
     <section className='section  ' id='contact'>
-       <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] '> 
+       <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] mt-4'> 
             {/* <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-70 h-screen bgvid -z-[0]" /> */}
             
-                <h1 className=' lg:text-8xl md:text-sm sm:text-m text-2xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center  font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg '> Contact Us<div className='flex justify-between '>  </div>  </h1>
+                <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-20 '> Contact Us<div className='flex justify-between '>  </div>  </h1>
             <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen bgvid -z-[0]" />
-                <p className='ml-5 text-[#ffde59] lg:text-[25px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mt-5'> If you're interesting in working with us, have questions surrounding pricing or timelines, or are looking to upgrade your career please reach out</p>
+                <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Need a website? Have questions surrounding pricing or timelines? Ready to upgrade your career?  Please reach out below</p>
 
                
             </div>
@@ -78,7 +78,7 @@ export const Contact = () => {
               className='textarea  block
               w-full
               
-              
+              text-black
               border-gray-300
               rounded-md
               shadow-sm
