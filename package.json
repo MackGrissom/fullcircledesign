@@ -1,6 +1,10 @@
 {
   "name": "mcdesign",
+  "description": "Full Circle Web Design Application",
   "version": "0.1.0",
+  "engines": {
+    "node": "^18.8.0"
+  },
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
