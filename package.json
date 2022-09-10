@@ -3,7 +3,8 @@
   "description": "Full Circle Web Design Application",
   "version": "0.1.0",
   "engines": {
-    "node": "18.8.0"
+    "node": "16.13.1",
+    "yarn": "1.22.18"
   },
   "private": true,
   "dependencies": {
