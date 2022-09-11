@@ -24,7 +24,9 @@ const Hero = () => {
                 {/* <p className='text-white'>
                    Our websites will take you from zero to one.
                 </p> */}
-                <a href='contact'><button className='text-black  bg-[#ffde59] w-[300px] rounded-md font-medium my-6 mx-auto py-3  backdrop-blur-xl drop-shadow-xl hover:bg-[white]'> Get Started </button></a>
+                <a href='https://forms.gle/qar7N5mxAwJeYUrc8'><button className='text-black  bg-[#ffde59] w-[300px] rounded-md font-medium my-6 mx-auto py-3  backdrop-blur-xl drop-shadow-xl hover:bg-[white]'> Get Started </button></a>
+                
+                
                 
             </div>
 
