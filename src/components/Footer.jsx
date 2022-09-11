@@ -1,6 +1,4 @@
 import React from 'react'
-import BG from '../assets/bg.mp4'
-import Tlogo from '../assets/tcircle.png'
 const Footer = () => {
     return (
 

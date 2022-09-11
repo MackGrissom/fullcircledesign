@@ -1,8 +1,8 @@
 import React from 'react';
 import Typed from 'react-typed';
 import BG from '../assets/bg3.mp4'
-import { AiOutlineInstagram} from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+
+
 
 const Hero = () => {
     return (
