@@ -14,8 +14,8 @@
 import React, { useState, useEffect } from 'react';
 
 // import data
-import { projectsData } from '../Data';
-import { projectsNav } from '../Data';
+import { projectsData } from '../Data.js';
+import { projectsNav } from '../Data.js';
 
 // import components
 import Project from './Project';
@@ -45,7 +45,7 @@ const Projects = () => {
   return (
     <div>
       {/* projects nav */}
-      <nav className='mb-12 max-w-xl mx-auto'>
+      {/* <nav className='mb-12 max-w-xl mx-auto'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>
           {projectsNav.map((item, index) => {
             return (
@@ -63,7 +63,7 @@ const Projects = () => {
             );
           })}
         </ul>
-      </nav>
+      </nav> */}
       {/* projects */}
       <section className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'>
         {projects.map((item) => {

@@ -10,6 +10,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import {Routes, Route} from 'react-router-dom'
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 <Route path='/process' element={< Timeline /> }/>
 <Route path='/about'about element={< About /> }/>
 <Route path='/contact' element={< Contact /> }/>
-<Route path='/projects' element={< Projects />} />
+{/* <Route path='/projects' element={< Portfolio />} /> */}
     {/* < Hero />
     < Services /> 
     < Timeline />

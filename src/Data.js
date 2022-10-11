@@ -1,25 +1,25 @@
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/p1.webp';
+import Project2 from './assets/img/p2.webp';
+import Project3 from './assets/img/p3.webp';
+import Project4 from './assets/img/p4.webp';
+import Project5 from './assets/img/p5.webp';
+import Project6 from './assets/img/p6.webp';
 
-export const projectsData = [
-    {
-      id: '1',
-      image: Project4,
-      name: 'Full Circle Web Design',
-      category: 'web development',
-      description: 'My web design agency - currently operating and available to provide services - built from scratch on React and Tailwind CSS. Optimized for all devices',
-      link: 'https://www.fullcircledesign.io/' 
-    },
+export const projectsData  = [
+    // {
+    //   id: '1',
+    //   image: Project4,
+    //   name: 'Full Circle Web Design',
+    //   category: 'web development',
+    //   description: 'My web design agency - currently operating and available to provide services - built from scratch on React and Tailwind CSS. Optimized for all devices',
+    //   link: 'https://www.fullcircledesign.io/' 
+    // },
     {
       id: '5',
       image: Project5,
       name: 'JamSesh',
       category: 'web development',
-      description: "A Spotify Clone using 2 APIs to pull top music by genre and by location. Built in React.js, Tailwind CSS. Note: Adblockers must be turned off to use location API. If you need help, just contact me! ",
+      description: "A Spotify/S Alternative using 2 APIs to pull top music by genre and by location. Built in React.js, Tailwind CSS. Note: Adblockers must be turned off to use location API. If you need help, just contact me! ",
       link: "https://superlative-dolphin-935b01.netlify.app/"
     },
     {
@@ -44,7 +44,7 @@ export const projectsData = [
       image: Project3,
       name: 'Modern UI/UX Landing Page',
       category: 'UI/UX design',
-      description: "A static modern UI-UX landing page for GPT-3 Artifical Intelligence, built in React.  Based off of a Figma design. Easily repurposed for any product/service. ",
+      description: "A static modern UI-UX landing page for GPT-3 Artifical Intelligence, built in React.  Based off of a Figma design. ",
       link: "https://modern-user-interface.herokuapp.com/"
   
     },

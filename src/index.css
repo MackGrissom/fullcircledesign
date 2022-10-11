@@ -51,3 +51,13 @@ video {
 .hidnav {
     z-index: 1;
 }
+.text-base {
+    color: white;
+}
+.capitalize.text-accent.text-sm.mb-3 {
+    color: white;
+}
+
+#portfolio {
+    color: white;
+}
