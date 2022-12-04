@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import BG from '../assets/bg20.mp4'
+import BG from '../assets/bg69.mp4'
 import Contactpic from '../assets/contact.png'
 // import contact data
 // import { contact } from '../Data.js';
@@ -28,24 +28,24 @@ export const Contact = () => {
 
   return (
     <section className='section  ' id='contact'>
-       <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] mt-4'> 
+       <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] mt-4 justify-center'> 
             {/* <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-70 h-screen bgvid -z-[0]" /> */}
             
                 <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-20 '> Contact Us<div className='flex justify-between '>  </div>  </h1>
-            <video src={BG} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen bgvid -z-[0]" />
-                <p className='ml-5 text-[#ffde59] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Need a website? Have questions surrounding pricing or timelines? Ready to upgrade your career?  Please reach out below</p>
+            <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" />
+                {/* <p className='ml-5 text-[black] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> Need an estimate for your website or web app? Please reach out below</p> */}
+              
 
                
-            </div>
-      <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg flex'>
+      {/* <div className='bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg flex justify-center  align-middle'> */}
                 
             {/* <video src={BG} autoPlay loop muted className="absolute w-full max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-full opacity-40" /> */}
 
           <form ref={form}
-            className='space-y-2 w-full max-w-full  flex flex-wrap form bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] mt-2 mb-2 p-4 align-middle items-center justify-center bg-white' onSubmit={sendEmail} 
+            className='space-y-2 w-full max-w-full  flex flex-wrap form bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] mt-2 mb-2 p-4 align-middle items-center justify-center bg-black w-[75%]' onSubmit={sendEmail} 
           >
             <img src={Contactpic} alt='laptop' className='w-[200px] mx-auto my-4 ' />
-                <p className='ml-5 text-[white] lg:-text-[10px] font-mono w-[50%]'> We're looking forward to connecting with you and helping take your idea from a day-dream, written down on a napkin, to a tangible MVP that you can pitch to investors.</p>
+                <p className='ml-5 text-[white] lg:-text-[10px] font-mono w-[50%]'>  Need an estimate for your website or web app? Have questions? Ready to turn your idea into reality? Please reach out.</p>
             <div className='flex gap-2 p-2'>
               <input className='input  block
             w-full
@@ -99,7 +99,8 @@ export const Contact = () => {
           </form>
             
         
-        </div>
+        {/* </div> */}
+            </div>
         
       
 
