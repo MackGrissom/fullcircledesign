@@ -3,7 +3,7 @@
   "description": "Full Circle Web Design Application",
   "version": "0.1.0",
   "engines": {
-    "node": "18.9.0",
+    "node": "18.9.0"
   },
   "license": "MIT",
   "private": true,
