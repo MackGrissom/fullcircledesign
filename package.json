@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "engines": {
     "node": "18.9.0",
-    "yarn": "1.22.18"
   },
   "license": "MIT",
   "private": true,
