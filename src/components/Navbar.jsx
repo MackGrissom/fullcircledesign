@@ -31,26 +31,26 @@ const Navbar = () => {
     return (
 
         <div onScroll={ controlNavbar}  className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white  z-2 bg-none'>
-            <a href='/'><img src={Logo}  className='logo w-32 h-32  hover:animate-pulse' /> </a>
+            <a href='/'><img src={Logo}  className='logo w-32 h-32  hover:animate-pulse ' /> </a>
             <ul className='hidden md:flex font-mono'>
 
-                <li className='p-4 hover:text-[black]'> <a href='/'>Home</a>
+                <li className='p-4 hover:tewhite] glow-on-hover'> <a href='/'>Home</a>
                 </li>
 
 
-                <li className='p-4 hover:text-[black]'> 
+                <li className='p-4 hover:text-[white] glow-on-hover'> 
                 <a href='/services'>Services</a>
                 </li>
 
 
-                <li className='p-4 hover:text-[black]'> 
+                <li className='p-4 hover:text-[white] glow-on-hover w-'> 
                <a href='/process'>Our Process</a>
                 </li>
                 
-                <li className='p-4 hover:text-[black]'> <a href='about'> About </a>
+                <li className='p-4 hover:text-[white] glow-on-hover'> <a href='about'> About </a>
                 </li>
 
-                <li className='p-4 hover:text-[black]'> <a href='contact'>Contact</a> 
+                <li className='p-4 hover:text-[white] glow-on-hover'> <a href='contact'>Contact</a> 
                 </li>
                 
                 
