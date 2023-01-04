@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu ,AiOutlineInstagram} from 'react-icons/ai';
-import BG from '../assets/bgsmoke.mp4'
 import Logo from '../assets/logo.png';
 
 const Navbar = () => {

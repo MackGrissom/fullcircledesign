@@ -2,7 +2,7 @@ import React from 'react'
 import Design from '../assets/design.png'
 import Development from '../assets/development.png'
 import SEO from '../assets/seo.png'
-import BG from '../assets/bgbutt.mp4'
+import BG from '../assets/circularroad.mp4'
 
 // import BG2 from '../assets/bg21.mp4'
 const Services = () => {
@@ -27,7 +27,7 @@ const Services = () => {
                 <div className='flex flex-col justify-center'>
             
                     <p className='text-[black] uppercase font-bold md:text-4x1 sm:text-3x1 ml-8 font-mono'> Web Design  </p>
-                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 ml-8 text-silver font-mono'> We're UI/UX Experts For Websites & Web Apps </h1>
+                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 ml-8 text-white font-mono'> We're UI/UX Experts For Websites & Web Apps </h1>
                     <p className='ml-8 text-white font-mono'> Whether you're seeking a web-re-design, a make-over of your existing website, a mobile-friendly  version of your site, or a brand new site designed and developed from scratch; you can be confident that you are in good hands with our web design specialists. </p>
                     <p className='ml-8 text-[black] font-mono'>UX research, UI design, Wireframing & Prototyping, Logo Design  </p>
 

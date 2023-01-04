@@ -1,5 +1,5 @@
 import React from 'react'
-import BG from '../assets/bgsmoke.mp4'
+import BG from '../assets/about.mp4'
 import Aboutpic from '../assets/about.png'
 import Typed from 'react-typed';
 
