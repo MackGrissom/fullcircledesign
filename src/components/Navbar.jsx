@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
 
         <div onScroll={ controlNavbar}  className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white  z-2 bg-none'>
-            <a href='/'><img src={Logo}  className='logo w-32 h-32  hover:animate-pulse ' /> </a>
+            <a href='/'><img src={Logo}  alt='logo' className='logo w-32 h-32  hover:animate-pulse ' /> </a>
             <ul className='hidden md:flex font-mono'>
 
                 <li className='p-4 hover:tewhite] glow-on-hover'> <a href='/'>Home</a>
@@ -59,11 +59,11 @@ const Navbar = () => {
             </ul>
             
             <div onClick={handleNav} className='block md:hidden -ml-[40px] -mt-[37px] '>
-        {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px]'/> : <AiOutlineMenu size={20} className='-ml-[40px]'/>}
+        {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px] hover:bg-orange'/> : <AiOutlineMenu size={20} className='-ml-[40px]' hover:bg-orange/>}
         </div>
 
         <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500 hidnav' : 'ease-in-out duration-500 fixed left-[-100%] navhidden dropdown-nav font-mono hidnav'}>
-        <img src={Logo}  className='logo w-20 h-20' />
+        <img src={Logo} alt='logo' className='logo w-20 h-20' />
         {/* <h1 className='w-full text-3xl font-bold text-[#ffde59] m-4'>Full Circle Design.</h1> */}
         {/* <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" /> */}
         <li className='p-4 hover:text-[#ffde59]'> <a href='/'>Home</a>
