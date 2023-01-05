@@ -37,7 +37,7 @@ const Hero = () => {
                 </div>
                 
             </div>
-<div class="container !hidden">
+{/* <div class="container !hidden">
         <div class="card ">
             <div class="face face1">
                 <div class="content ">
@@ -80,7 +80,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
         </div>
     )
 }
