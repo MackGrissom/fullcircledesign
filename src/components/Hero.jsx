@@ -37,6 +37,11 @@ const Hero = () => {
                 </div>
                 
             </div>
+        </div>
+    )
+}
+
+export default Hero
 {/* <div class="container !hidden">
         <div class="card ">
             <div class="face face1">
@@ -81,8 +86,3 @@ const Hero = () => {
             </div>
         </div>
     </div> */}
-        </div>
-    )
-}
-
-export default Hero
