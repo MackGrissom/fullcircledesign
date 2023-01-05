@@ -1,0 +1,4 @@
+*.psd
+/doc
+/test
+node_modules
