@@ -1,4 +1,7 @@
-*.psd
+psd
 /doc
 /test
 node_modules
+/spec
+/log
+/tmp

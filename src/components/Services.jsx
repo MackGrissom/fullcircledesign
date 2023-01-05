@@ -2,14 +2,14 @@ import React from 'react'
 import Design from '../assets/design.webp'
 import Development from '../assets/development.webp'
 import SEO from '../assets/seo.webp'
-import BG from '../assets/circularroad.mp4'
+
 
 // import BG2 from '../assets/bg21.mp4'
 const Services = () => {
     return (
     
-        <div className='text-black pt-h-14 main font-mono '>
-            <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" />
+        <div className='text-black pt-h-14 main font-mono bg-[#C0C0C0]'>
+            {/* <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" /> */}
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]  '> 
             
                 <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] mb-0 bg-gradient-to-r items-center -mt-[-44px] font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-[50px]  '> Services<div className='flex justify-between'>  </div>  </h1>
