@@ -1,7 +1,6 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import BG2 from '../assets/process.mp4'
 import Assessment from '../assets/assessment.webp'
 import Sitemap from '../assets/sitemap.webp'
 import Review1 from '../assets/review1.webp'
@@ -20,8 +19,8 @@ const Timeline = () => {
         <VerticalTimeline className='mt-4 -z-[1]'>
 
 
-            <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]'>
-                <video src={BG2} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" />
+            <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]  bg-[#C0C0C0]'>
+                {/* <video src={BG2} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" /> */}
                 <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full max-w-[50%] object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-20'> Our Process<div className='flex justify-between '>  </div>  </h1>
                 {/* <p className='ml-5 text-[black] lg:text-[30px]  italic w-full text-center hidden lg:flex md:flex lg:justify-center md:justify-center font-mono bg-black  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'> </p> */}
 

@@ -6,7 +6,7 @@ import Typed from 'react-typed';
 const About = () => {
   return (
 
-    <div className=''>
+    <div className=' '>
       <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px] mt-4'>
 
 
@@ -14,7 +14,7 @@ const About = () => {
           <h1 className=' lg:text-8xl md:text-5xl sm:text-4xl text-4xl font bold md:py-0 text-[white] flex justify-center align-center   max-h-full  object-cover h-[50px] bg-gradient-to-r items-center -mt-[-44px] font-mono bg-white  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg mb-20'> About Us<div className='flex justify-between'>
           </div>  </h1>
 
-          <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" />
+          {/* <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" /> */}
          
         </div>
 

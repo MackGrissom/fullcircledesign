@@ -8,7 +8,7 @@ import SEO from '../assets/seo.webp'
 const Services = () => {
     return (
     
-        <div className='text-black pt-h-14 main font-mono bg-[#C0C0C0]'>
+        <div className='text-black pt-h-14 main font-mono '>
             {/* <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content opacity-70 h-screen top-[0px]" /> */}
             <div className='mx-auto text-center flex flex-col justify-center pt-[1%] items-center max-w-[1240px]  '> 
             

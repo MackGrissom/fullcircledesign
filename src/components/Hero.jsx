@@ -6,9 +6,9 @@ import BG from '../assets/handpan.mp4'
 
 const Hero = () => {
     return (
-        <div className='text-black pt-h-14 main font-mono bg'>
-            <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content  h-screen top-[0px] opacity-70"/>
-            <div className='max-w-[900px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center content'>
+        <div className='text-black mt-0 main font-mono bg'>
+            <video src={BG} autoPlay loop muted className="fixed w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full h-fit-content  h-screen top-[0px] opacity-90"/>
+            <div className='max-w-[900px] mt-[-120px] w-full h-screen mx-auto text-center flex flex-col justify-center content'>
                 {/* <p className='text-[#000000] font-bold p-2'>Design, Develop, Deliver. </p> */}
               
                 <h1 className='md:text-3xl sm:text-4xl text-3xl font bold md:py-6 bg-white bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] -z-[1] font-mono mt-40 '> We Design & Build Websites For &nbsp;

@@ -26,7 +26,7 @@ export const Contact = () => {
 
 
   return (
-    <section className='section  bg-[#C0C0C0] ' id='contact' >
+    <section className='section   ' id='contact' >
        <div className='mx-auto text-center flex flex-col justify-center items-center max-w-[1240px] mt-4 justify-center'> 
             {/* <video src={BG2} autoPlay loop muted className="absolute w-auto max-w-full object-cover sm:w-full sm:h-full md:-w-full md:h-full opacity-70 h-screen bgvid -z-[0]" /> */}
             
