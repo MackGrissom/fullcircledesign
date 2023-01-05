@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import BG from '../assets/contact.mp4'
-import Contactpic from '../assets/contact.png'
+import Contactpic from '../assets/contact.webp'
 // import contact data
 // import { contact } from '../Data.js';
 // import { social } from '../data';

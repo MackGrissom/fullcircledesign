@@ -2,14 +2,14 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import BG2 from '../assets/process.mp4'
-import Assessment from '../assets/assessment.png'
-import Sitemap from '../assets/sitemap.png'
-import Review1 from '../assets/review1.png'
-import Figma from '../assets/figma.png'
-import Figma2 from '../assets/figmareview.png'
-import Development2 from '../assets/development2.png'
-import Launch from '../assets/launch.png'
-import Done from '../assets/done.png'
+import Assessment from '../assets/assessment.webp'
+import Sitemap from '../assets/sitemap.webp'
+import Review1 from '../assets/review1.webp'
+import Figma from '../assets/figma.webp'
+import Figma2 from '../assets/figmareview.webp'
+import Development2 from '../assets/development2.webp'
+import Launch from '../assets/launch.webp'
+import Done from '../assets/done.webp'
 
 
 const Timeline = () => {

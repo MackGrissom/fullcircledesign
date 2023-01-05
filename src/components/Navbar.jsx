@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo.webp';
 
 const Navbar = () => {
    

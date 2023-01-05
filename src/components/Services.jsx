@@ -1,7 +1,7 @@
 import React from 'react'
-import Design from '../assets/design.png'
-import Development from '../assets/development.png'
-import SEO from '../assets/seo.png'
+import Design from '../assets/design.webp'
+import Development from '../assets/development.webp'
+import SEO from '../assets/seo.webp'
 import BG from '../assets/circularroad.mp4'
 
 // import BG2 from '../assets/bg21.mp4'

@@ -1,6 +1,6 @@
 import React from 'react'
 import BG from '../assets/about.mp4'
-import Aboutpic from '../assets/about.png'
+import Aboutpic from '../assets/about.webp'
 import Typed from 'react-typed';
 
 const About = () => {
