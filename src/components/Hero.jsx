@@ -32,7 +32,7 @@ const Hero = () => {
        Web Design | Web Development | Logo Design & Branding | Website Maintenance
     </p>
 <div className="main">
-                <a href='https://forms.gle/qar7N5mxAwJeYUrc8'><button className='text-black  bg-[white] w-[300px] rounded-md font-medium my-6 mx-auto py-3  backdrop-blur-xl drop-shadow-xl hover:bg-[black] hover:text-white  glow-on-hover
+                <a href='https://forms.gle/qar7N5mxAwJeYUrc8'><button className='text-white  bg-[black] w-[300px] rounded-md font-medium my-6 mx-auto py-3  backdrop-blur-xl drop-shadow-xl hover:bg-[white] hover:text-black  glow-on-hover
                 '> Get A Quote </button></a>
                 </div>
                 
