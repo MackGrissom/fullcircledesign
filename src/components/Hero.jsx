@@ -11,10 +11,10 @@ const Hero = () => {
             <div className='max-w-[900px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center content'>
                 {/* <p className='text-[#000000] font-bold p-2'>Design, Develop, Deliver. </p> */}
               
-                <h1 className='md:text-4xl sm:text-4xl text-3xl font bold md:py-6 bg-white bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] -z-[1] font-mono mt-40 '> We Design & Build Websites For &nbsp;
+                <h1 className='md:text-3xl sm:text-4xl text-3xl font bold md:py-6 bg-white bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg text-[white] -z-[1] font-mono mt-40 '> We Design & Build Websites For &nbsp;
 
                 
-<Typed strings={['Disruptors.', 'Dreamers.', 'Do-ers.', 'Innovators.', 'Inventors.', 'Startups.', 'Small Businesses.', "Entrepreneurs.", "You."]} typeSpeed={100} backSpeed={50} loop className='text-l text-[black] font-bold md:text-4xl sm:text-4xl text-3xl hover:bg-white hover:animate-bounce hover:text-[#ffde59]' /> </h1>
+<Typed strings={['Disruptors.', 'Dreamers.', 'Do-ers.', 'Innovators.', 'Inventors.', 'Startups.', 'Small Businesses.', "Entrepreneurs.", "You."]} typeSpeed={100} backSpeed={50} loop className='text-l text-[black] font-bold md:text-3xl sm:text-4xl text-3xl hover:bg-white hover:animate-bounce hover:text-[#ffde59]' /> </h1>
                 <br />
                 <div>
                     {/* <p className='md:text-2xl sm:text-1xl text-l font-bold bg-[white] backdrop-blur-lg rounded-md drop-shadow-lg p-3 text-[black] bg-opacity-20 font-mono mt-20'> We Design & Build Websites For &nbsp;
