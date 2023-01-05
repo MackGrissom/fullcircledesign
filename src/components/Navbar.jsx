@@ -59,7 +59,7 @@ const Navbar = () => {
             </ul>
             
             <div onClick={handleNav} className='block md:hidden -ml-[40px] -mt-[37px] '>
-        {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px] hover:bg-orange'/> : <AiOutlineMenu size={20} className='-ml-[40px]' hover:bg-orange/>}
+        {nav ? <AiOutlineClose size={20} className='-ml-[40px] -mt-[25px] hover:bg-orange'/> : <AiOutlineMenu size={20} className='-ml-[40px] hover:bg-orange' />}
         </div>
 
         <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500 hidnav' : 'ease-in-out duration-500 fixed left-[-100%] navhidden dropdown-nav font-mono hidnav'}>
